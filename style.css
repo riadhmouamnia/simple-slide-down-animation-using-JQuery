@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(22, 22, 22);
+    color: white;
+    font-family: poppins;
+    padding: 2rem;
+    justify-content: center;
+    display: flex;
+}
+
+.continer{
+    background-image: linear-gradient(to top right, rgb(26, 26, 26), rgb(44, 44, 44));
+    width: 30%;
+    height: fit-content;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    display: inline-block;
+    margin: 1rem 1rem;
+}
+.continer h1 {
+    margin-bottom: 1.2rem;
+}
+
+.continer p {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: antiquewhite;
+}
+.card p {
+ display: none;
+}
+
+button {
+    border: none;
+    background: none;
+    color: rgb(75, 75, 75);
+    cursor: pointer;
+}
+
+button:hover {
+    color: rgb(184, 184, 184);
+}
+
+button:active{
+    color: rgba(221, 221, 221, 0.534);
+}
